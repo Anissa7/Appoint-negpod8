@@ -1,12 +1,8 @@
 #!/usr/bin/python3
 Availability= {'Ofcice hours' : '08:00 A.M - 3 P.M',
-        'Emmergency hours' : '3 PM - 10 PM',
-        'Non possible hours'  : '11 P.M - 7 A.M',
-        'melons' : '2500 Rwf - 3500 Rwf',
-        'apples' : '400 Rwf - 500 Rwf',
-        'Papayas': '700 Rwf - 1000 Rwf',
-        'Pineapples':'300 Rwf - 500 Rwf',
-        }
+               'Emmergency hours' : '3 PM - 10 PM',
+               'Non possible hours'  : '11 P.M - 7 A.M',
+                }
 
 for keys, values in sorted(Availability.items()):
     print("{}: {}".format(keys, values))
